@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452188940330",
+    "project_id": "kub-project-8c926",
+    "storage_bucket": "kub-project-8c926.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452188940330:android:a2b1c298958eef1f157b53",
+        "android_client_info": {
+          "package_name": "com.example.kub_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTBlYWrGJRCECTAhzbpG1tad2XqxXf3p0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
