@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-            title: Text('Commander un Taxi'),
+            title: Text('Bienvenu sur Kub'),
             leading: IconButton(
               onPressed: () => _signOut(context),
               icon: const Icon(Icons.logout_outlined),
@@ -17,10 +17,13 @@ class HomePage extends StatelessWidget {
         body: SingleChildScrollView(
           child: Column(children: [
             Center(
-                child: Image.asset(
-              'assets/logo/map.png',
-              height: 500,
-            )),
+              child: Image.asset(
+                'assets/logo/Logo_HD-08.png',
+                height: 200,
+              ),
+            ),
+            SizedBox(height: 16),
+            Text("Voulez vous louer un véhicule ?")
           ]),
         ));
     //  return Scaffold(
