@@ -9,7 +9,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-            title: Text('Bienvenu sur Kub'),
+            title: Center(
+              child: Text(
+                'Bienvenu sur Kub',
+                textAlign: TextAlign.center,
+              ),
+            ),
             leading: IconButton(
               onPressed: () => _signOut(context),
               icon: const Icon(Icons.logout_outlined),
@@ -23,7 +28,13 @@ class HomePage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 16),
-            Text("Voulez vous louer un véhicule ?")
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text("Voulez vous louer un véhicule ?"),
+                Text("Voulez vous commander ?")
+              ],
+            )
           ]),
         ));
     //  return Scaffold(
