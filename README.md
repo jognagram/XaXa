@@ -1,6 +1,6 @@
 # kub_mobile
 
-Utilisez un emulateur Android pour démarrer le projet.
+Utilisez un emulateur Android pour démarrer le projet. | connexion internet requis
 
 # QUELQUES CAPTURES 
 
